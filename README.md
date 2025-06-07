@@ -34,7 +34,7 @@ Lumos is influenced by
   </ul>
 - Conditional branch:
   <ul>
-    <li><code>if (let x == 10) { let status = "Done" } else { let status = "Not yet" }</code></li>
+    <li><code>if (x == 10) {  let status = "Done"  } else {  let status = "Not yet"  }</code></li>
     <li><code>if (let x == 10) { let status = "Done" } elsif (let x == 20) { let status = "Already" } else { let status = "Not yet" }</code></li>
   </ul>
 - Break and Continue:

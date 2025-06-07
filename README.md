@@ -15,12 +15,33 @@ Lumos is influenced by
 
 ## Available
 
-- Variable Declaration: `let x = 5`
-- Function Definition: `def greet(name) { let message = "Hello," + name }`
-- Function Invocation: `greet("Bob")`
-- Control Structures: `for i = 1 to 5 {let square = i * i}` `while (x < 10) {let x = x + 1}`
-- Conditional branch `if (let x == 10) { let status = "Done" } else { let status = "Not yet" }` `if (let x == 10) { let status = "Done" } elsif (let x == 20) { let status = "Already" } else { let status = "Not yet" }`
-- Break and Continue: `break` `continue`
+- Variable Declaration:
+  <ul>
+    <li><code>let x = 5</code></li>
+  </ul>
+- Function Definition:
+  <ul>
+    <li><code>def greet(name) { let message = "Hello," + name }</code></li>
+  </ul>
+- Function Invocation:
+  <ul>
+    <li><code>greet("Bob")</code></li>
+  </ul>
+- Control Structures:
+  <ul>
+    <li><code>for i = 1 to 5 { let square = i * i }</code></li>
+    <li><code>while (x < 10) { let x = x + 1 }</code></li>
+  </ul>
+- Conditional branch:
+  <ul>
+    <li><code>if (let x == 10) { let status = "Done" } else { let status = "Not yet" }</code></li>
+    <li><code>if (let x == 10) { let status = "Done" } elsif (let x == 20) { let status = "Already" } else { let status = "Not yet" }</code></li>
+  </ul>
+- Break and Continue:
+  <ul>
+    <li><code>break</code></li>
+    <li><code>continue</code></li>
+  </ul>
 
 ## Caution
 

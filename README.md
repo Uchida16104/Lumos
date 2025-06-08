@@ -1,5 +1,7 @@
 # Lumos
 
+[![npm version](https://img.shields.io/npm/v/lumos-language.svg)](https://www.npmjs.com/package/lumos-language)
+
 <img src="https://cdn.glitch.global/a6e15949-0cae-4ce8-a653-5883a6d0adc5/Lumos.png?v=1748865997035" />
 
 Lumos is a lightweight, beginner-friendly interpreted programming language designed for learning, experimentation, and scripting.

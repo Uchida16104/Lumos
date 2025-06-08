@@ -1,4 +1,4 @@
-# Lumos
+# Lumos Language
 
 [![npm version](https://img.shields.io/npm/v/lumos-language.svg)](https://www.npmjs.com/package/lumos-language)
 

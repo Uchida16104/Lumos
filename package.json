@@ -1,14 +1,14 @@
 {
   "name": "lumos-language",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Lumos - Interactive CLI",
   "main": "index.js",
   "bin": {
-    "lumos": "./index.js"
+    "lumos": "index.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Uchida16104/Lumos.git"
+    "url": "git+https://github.com/Uchida16104/Lumos.git"
   },
   "bugs": {
     "url": "https://github.com/Uchida16104/Lumos/issues"
@@ -16,6 +16,11 @@
   "homepage": "https://lumos-language.glitch.me",
   "author": "Hirotoshi Uchida",
   "license": "MIT",
-  "type": "module"
+  "type": "module",
+  "scripts": {
+    "test": "lumos"
+  },
+  "keywords": [
+    "programming-language"
+  ]
 }
-

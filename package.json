@@ -1,6 +1,6 @@
 {
   "name": "lumos-language",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Lumos - Interactive CLI",
   "main": "index.js",
   "bin": {

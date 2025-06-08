@@ -1,0 +1,13 @@
+{
+  "name": "lumos-cli",
+  "version": "1.0.0",
+  "description": "Lumos - Interactive CLI",
+  "main": "index.js",
+  "bin": {
+    "lumos": "./index.js"
+  },
+  "author": "Hirotoshi Uchida",
+  "license": "MIT",
+  "type": "module"
+}
+

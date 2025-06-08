@@ -1,0 +1,15 @@
+{
+  "name": "lumos",
+  "version": "1.0.0",
+  "description": "Lumos CLI language interpreter",
+  "bin": {
+    "lumos": "./index.js"
+  },
+  "homepage": "https://lumos-language.glitch.me",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Uchida16104/Lumos.git"
+  },
+  "author": "Hirotoshi Uchida",
+  "license": "MIT"
+}

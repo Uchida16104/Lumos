@@ -1,0 +1,13 @@
+Id: Uchida16104.Lumos
+Name: Lumos
+Publisher: Hirotoshi Uchida
+AppMoniker: lumos
+Version: 1.0.0
+Homepage: https://lumos-language.glitch.me
+License: MIT
+Installers:
+  - Architecture: x64
+    InstallerUrl: https://github.com/Uchida16104/Lumos/archive/refs/tags/v1.0.0.zip
+    InstallerType: zip
+    InstallerSha256: 3a640194505e955c8859d15e48085045128efff3e6c93db146df933d1e3e77d1
+    NestedInstallerType: node

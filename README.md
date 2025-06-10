@@ -44,10 +44,23 @@ Lumos is influenced by
     <li><code>break</code></li>
     <li><code>continue</code></li>
   </ul>
+- Launch from your terminal:
+  <ol>
+    <li><code>cd path/to/lumos-language</code></li>
+    <li><code>node index.cjs</code></li>
+  </ol>
+- Compile on your terminal:
+  <ol>
+    <li><code>cd path/to/lumos-language</code></li>
+    <li><code>node index.cjs main.lumos</code></li>
+  </ol>
 
 ## Caution
 
 - Please write the code in a single line and don't execute it while writing.
+
+## Change
+- You can refer to [npm](https://www.npmjs.com/package/lumos-language) or [GitHub Releases](https://github.com/Uchida16104/Lumos-Language/releases).
 
 ## More Info
 Get from <strong><a href="https://cdn.glitch.global/a6e15949-0cae-4ce8-a653-5883a6d0adc5/Lumos.pdf?v=1748869028196">pdf</a></strong>.

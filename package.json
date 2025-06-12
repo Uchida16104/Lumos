@@ -1,6 +1,6 @@
 {
   "name": "@Uchida16104/lumos-language",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "Lumos - Interactive CLI",
   "main": "./index.cjs",
   "bin": {

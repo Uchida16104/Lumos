@@ -1,6 +1,6 @@
 {
   "name": "lumos-language",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Lumos - Interactive CLI",
   "main": "index.cjs",
   "bin": {
@@ -27,6 +27,6 @@
     "programming-language"
   ],
   "dependencies": {
-    "lumos-language": "^1.0.7"
+    "lumos-language": "^1.0.8"
   }
 }

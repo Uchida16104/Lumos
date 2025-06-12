@@ -19,48 +19,123 @@ Lumos is influenced by
 
 - Variable Declaration:
   <ul>
-    <li><code>let x = 5</code></li>
+    <li>
+      
+      let x = 5
+
+    </li>
   </ul>
 - Function Definition:
   <ul>
-    <li><code>def greet(name) { let message = "Hello," + name }</code></li>
+    <li>
+      
+      def greet(name) { let message = "Hello," + name }
+
+    </li>
   </ul>
 - Function Invocation:
   <ul>
-    <li><code>greet("Bob")</code></li>
+    <li>
+      
+      greet("Bob")
+
+    </li>
   </ul>
 - Control Structures:
   <ul>
-    <li><code>for i = 1 to 5 { let square = i * i }</code></li>
-    <li><code>while (x < 10) { let x = x + 1 }</code></li>
-    <li><code>3.times do |i| {i} end</code>
+    <li>
+      
+      for i = 1 to 5 { let square = i * i }
+
+    </li>
+    <li>
+      
+      while (x < 10) { let x = x + 1 }
+
+    </li>
+    <li>
+      
+      3.times do |i| {i} end
+
+    </li>
   </ul>
 - Conditional branch:
   <ul>
-    <li><code>if (x == 10) {  let status = "Done"  } else {  let status = "Not yet"  }</code></li>
-    <li><code>if (x == 10) { let status = "Done" } elsif (x == 20) { let status = "Already" } else { let status = "Not yet" }</code></li>
+    <li>
+      
+      if (x == 10) {  let status = "Done"  } else {  let status = "Not yet"  }
+
+    </li>
+    <li>
+      
+      if (x == 10) { let status = "Done" } elsif (x == 20) { let status = "Already" } else { let status = "Not yet" }
+
+    </li>
   </ul>
 - Break and Continue:
   <ul>
-    <li><code>break</code></li>
-    <li><code>continue</code></li>
+    <li>
+      
+      break
+
+    </li>
+    <li>
+      
+      continue
+
+    </li>
   </ul>
 - Launch from your terminal:
   <ol>
-    <li><code>npm i lumos-language</code></li>
-    <li><code>cd path/to/lumos-language</code></li>
-    <li><code>node index.cjs</code></li>
+    <li>
+      
+      npm i lumos-language
+
+    </li>
+    <li>
+      
+      cd path/to/lumos-language
+
+    </li>
+    <li>
+      
+      node index.cjs
+
+    </li>
   </ol>
 - Compile on your terminal:
   <ol>
-    <li><code>npm i lumos-language</code></li>
-    <li><code>cd path/to/lumos-language</code></li>
-    <li><code>node index.cjs main.lumos</code></li>
+    <li>
+      
+      npm i lumos-language
+
+    </li>
+    <li>
+      
+      cd path/to/lumos-language
+
+    </li>
+    <li> 
+    
+      node index.cjs main.lumos
+  
+    </li>
   </ol>
 
 ## Caution
 
 - Please write the code in a single line and don't execute it while writing.
+- When installing Lumos Language, don't use
+
+<code>npm install @uchida16104/lumos-language</code>
+
+but instead use
+
+```shellscript
+npm i lumos-language
+```
+
+in the terminal.
 
 ## Change
 - You can refer to [npm](https://www.npmjs.com/package/lumos-language) or [GitHub Releases](https://github.com/Uchida16104/Lumos-Language/releases).

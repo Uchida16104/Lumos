@@ -28,6 +28,7 @@
     "programming-language"
   ],
   "dependencies": {
-    "lumos-language": "^1.0.8"
+    "lumos-language": "^1.0.8",
+    "express": "^5.1.0"
   }
 }

@@ -33,6 +33,7 @@ Lumos is influenced by
   <ul>
     <li><code>for i = 1 to 5 { let square = i * i }</code></li>
     <li><code>while (x < 10) { let x = x + 1 }</code></li>
+    <li><code>3.times do |i| {i} end</code>
   </ul>
 - Conditional branch:
   <ul>

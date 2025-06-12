@@ -1,4 +1,4 @@
-.git
+.git/
+.gitignore
 *.log
-package.json
 node_modules/

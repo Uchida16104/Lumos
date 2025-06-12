@@ -1,5 +1,5 @@
 {
-  "name": "lumos-language",
+  "name": "@Uchida16104/lumos-language",
   "version": "1.0.8",
   "description": "Lumos - Interactive CLI",
   "main": "index.cjs",

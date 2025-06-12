@@ -2,7 +2,7 @@
   "name": "@Uchida16104/lumos-language",
   "version": "1.0.8",
   "description": "Lumos - Interactive CLI",
-  "main": "index.cjs",
+  "main": "./index.cjs",
   "bin": {
     "lumos": "./index.cjs"
   },
@@ -22,12 +22,9 @@
   "type": "commonjs",
   "scripts": {
     "start": "node ./index.cjs && rm -f package.json && refresh",
-    "test": "lumos"
+    "test": "echo 'Running lumos...' && node ./index.cjs"
   },
   "keywords": [
     "programming-language"
-  ],
-  "dependencies": {
-    "lumos-language": "^1.0.8"
-  }
+  ]
 }

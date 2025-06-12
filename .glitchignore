@@ -1,2 +1,4 @@
 .git
 *.log
+package.json
+node_modules/

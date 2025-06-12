@@ -21,14 +21,12 @@
   "license": "MIT",
   "type": "commonjs",
   "scripts": {
-    "start": "node index.cjs",
     "test": "lumos"
   },
   "keywords": [
     "programming-language"
   ],
   "dependencies": {
-    "lumos-language": "^1.0.8",
-    "express": "^5.1.0"
+    "lumos-language": "^1.0.8"
   }
 }

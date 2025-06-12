@@ -16,3 +16,9 @@ jobs:
         with:
           project-id: '${{ secrets.PROJECT_ID }}'
           auth-token: '${{ secrets.AUTH_TOKEN }}'
+      - name: Delete package.json on Glitch via API
+        run: |
+          curl -X POST "https://api.glitch.com/projects/${{ secrets.PROJECT_ID }}/remix" \
+          -H "Authorization: Bearer ${{ secrets.AUTH_TOKEN }}" \
+          -H "Content-Type: application/json" \
+          -d '{"mutations":[{"action":"removeFile","path":"package.json"}]}'

@@ -47,11 +47,13 @@ Lumos is influenced by
   </ul>
 - Launch from your terminal:
   <ol>
+    <li><code>npm i lumos-language</code></li>
     <li><code>cd path/to/lumos-language</code></li>
     <li><code>node index.cjs</code></li>
   </ol>
 - Compile on your terminal:
   <ol>
+    <li><code>npm i lumos-language</code></li>
     <li><code>cd path/to/lumos-language</code></li>
     <li><code>node index.cjs main.lumos</code></li>
   </ol>

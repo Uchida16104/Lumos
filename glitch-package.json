@@ -1,1 +1,33 @@
-
+{
+  "name": "lumos-language",
+  "version": "1.0.8",
+  "description": "Lumos - Interactive CLI",
+  "main": "index.cjs",
+  "bin": {
+    "lumos": "./index.cjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Uchida16104/Lumos-Language.git"
+  },
+  "publishConfig": {
+    "@Uchida16104:registry": "https://npm.pkg.github.com"
+  },
+  "bugs": {
+    "url": "https://github.com/Uchida16104/Lumos-Language/issues"
+  },
+  "homepage": "https://lumos-language.glitch.me",
+  "author": "Hirotoshi Uchida",
+  "license": "MIT",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js",
+    "test": "lumos"
+  },
+  "keywords": [
+    "programming-language"
+  ],
+  "dependencies": {
+    "lumos-language": "^1.0.8"
+  }
+}

@@ -10,7 +10,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
       - name: Replace Glitch-specific package.json
-        run: cp glitch-package.json package.json
+        run: cp package.json glitch-package.json
       - name: Deploy To Glitch
         uses: kanadgupta/glitch-sync@main
         with:

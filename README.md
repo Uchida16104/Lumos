@@ -143,4 +143,4 @@ in the terminal.
 ## More Info
 Get from <strong><a href="https://cdn.glitch.global/a6e15949-0cae-4ce8-a653-5883a6d0adc5/Lumos.pdf?v=1748869028196">pdf</a></strong>.
 
-2025 © Hirotoshi Uchida
+2025 © <a href="https://hirotoshiuchida.glitch.me">Hirotoshi Uchida</a>
